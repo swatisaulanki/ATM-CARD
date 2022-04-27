@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(245, 239, 212);
+}
+
+#cardDiv{
+    /* border:solid black 1px;  */
+    width:45%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: white;
+}
+#Card{
+    /* background-color:#3b0f13; */
+    background-image: linear-gradient(to right top, #a49ef5, #7428ee);
+     height:220px; width:350px;
+    border-radius:15px;
+       /* border:solid black 1px; */
+    color: white;
+}
+#Cardtype{
+    display:flex;
+    justify-content:end;
+    margin:10px ;
+    color: white;
+}
+#paybtn{
+    padding: 8px 30px;
+    font-size: 18px;
+    font-weight: bold;
+
+   
+    background-image: linear-gradient(to right top, #b6abef, #662eeb);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-left: -190px;
+    margin-top: 30px;
+
+}
